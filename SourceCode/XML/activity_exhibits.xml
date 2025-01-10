@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exhibits"
+    android:background="#FFFFFF"
+    android:id="@+id/content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Exhibits"
+        android:textColor="@color/myred"
+        android:textSize="30sp"
+        tools:targetApi="jelly_bean" />
+
+    <EditText
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:hint="Information"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/namee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:hint="Name"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/longitudee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:hint="Longitude"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/latitudee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:hint="Latitude"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/sumbitt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorAccent"
+        android:text="Submit"
+        android:textColor="@color/white"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/buttongotolocation"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="24sp"
+        android:onClick="goToLocationActivity"
+        android:text="Go for Exhibit Location"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/image"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="2sp"
+        android:onClick="goToImageActivity"
+        android:text="Add an image"
+        android:textColor="@color/white" />
+</LinearLayout>

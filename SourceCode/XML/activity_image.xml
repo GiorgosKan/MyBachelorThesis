@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    tools:context=".Image">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Select Image"
+        android:textColor="@color/myred"
+        android:textSize="30sp"
+        tools:targetApi="jelly_bean" />
+
+    <ImageView
+        android:id="@+id/clickHereToUploadImage"
+        android:src="@drawable/click_here_to_upload_image"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:textColor="@color/white"
+        android:layout_marginLeft="5dp"/>
+
+</LinearLayout>

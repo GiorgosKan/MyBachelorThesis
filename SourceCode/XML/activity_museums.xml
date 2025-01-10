@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Museums"
+    android:background="#FFFFFF"
+    android:id="@+id/content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Museums"
+        android:textColor="@color/myred"
+        android:textSize="30sp"
+        tools:targetApi="jelly_bean" />
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:hint="Country"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Name"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="City"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Longitude"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Latitude"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/sumbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:text="Submit"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/button_go_to_location"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="29sp"
+        android:onClick="goToLocationActivity"
+        android:textColor="@color/white"
+        android:text="Go for Museum Location"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/gotoexhibits"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="4sp"
+        android:onClick="goToLocationActivityy"
+        android:text="Let's add exhibits"
+        android:textColor="@color/white" />
+</LinearLayout>
+
+
+
