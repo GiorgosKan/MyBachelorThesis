@@ -1,0 +1,4 @@
+Usage Policy
+
+The knowledge and source code of my thesis are strictly prohibited from being used for commercial purposes or for any activities in which I am not a participant. 
+However, the thesis is available for anyone to read, learn from, and use as inspiration to address their own questions or improve their code based on mine.
